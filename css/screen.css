@@ -410,17 +410,20 @@ a:focus {
 */
 
 .o-button-reset {
-  border: none;
+  width: 100%;
   margin: 0;
-  padding: 0;
-  width: auto;
+  padding: 16px;
   overflow: visible;
-  background: transparent;
+  background: #2e77e6;
+  fill: #3385ff;
+  border-color: #2e77e6;
+  border-radius: 3px;
+  outline: none;
 
   /* inherit font & color from ancestor */
-  color: inherit;
+  color: #ffffff;
   font: inherit;
-
+  font: weight 500;
   /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
   line-height: normal;
 
@@ -431,6 +434,23 @@ a:focus {
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
 }
+.o-button-reset:hover {
+    fill: #4F95FF;
+    border-color: #2e77e6;
+}
+
+.o-button-reset:active {
+    fill: #2E77E6;
+    border-color: #2e77e6;
+}
+
+.o-button-reset:focus {
+    fill: #3385FF;
+    border-color: #2e77e6;
+    box-shadow: 0 0 0 3px #3385ff4d;
+}
+
+
 
 /*------------------------------------*\
 #COMPONENTS
@@ -507,16 +527,19 @@ a:focus {
   -moz-appearance: none;
   appearance: none;
   width: 100%;
-  border-color: #8b8c9a;
+  border-color: #e2e3e7;
   border-radius: 3px;
   font-family: inherit;
   color: inherit;
   font-size: 16px;
   line-height: 24px;
   padding: 10px;
+  outline: none;
 }
 
 .c-input:focus {
+  border-color: #3385ff;
+  box-shadow: 0 0 0 3px #3385ff4d;
 }
 
 /*
