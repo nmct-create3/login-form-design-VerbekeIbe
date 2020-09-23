@@ -435,22 +435,20 @@ a:focus {
   -webkit-appearance: none;
 }
 .o-button-reset:hover {
-    fill: #4F95FF;
-    border-color: #2e77e6;
+  fill: #4f95ff;
+  border-color: #2e77e6;
 }
 
 .o-button-reset:active {
-    fill: #2E77E6;
-    border-color: #2e77e6;
+  fill: #2e77e6;
+  border-color: #2e77e6;
 }
 
 .o-button-reset:focus {
-    fill: #3385FF;
-    border-color: #2e77e6;
-    box-shadow: 0 0 0 3px #3385ff4d;
+  fill: #3385ff;
+  border-color: #2e77e6;
+  box-shadow: 0 0 0 3px #3385ff4d;
 }
-
-
 
 /*------------------------------------*\
 #COMPONENTS
@@ -492,7 +490,23 @@ a:focus {
 */
 
 .c-card {
-  display: block;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px #caccd4;
+  padding: 40px;
+}
+
+.c-card__body {
+}
+
+.c-card__title {
+  display: flex;
+  justify-content: center;
+}
+
+.c-card__footer {
+  display: flex;
+  justify-content: center;
 }
 
 /*
