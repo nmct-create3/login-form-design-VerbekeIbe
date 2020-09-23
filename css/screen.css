@@ -491,12 +491,16 @@ a:focus {
 
 .c-card {
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 4px;
   box-shadow: 0 0 0 2px #caccd4;
-  padding: 40px;
+}
+.c-card__header {
+  padding-top: 32px;
+
 }
 
 .c-card__body {
+  padding: 32px;
 }
 
 .c-card__title {
@@ -505,8 +509,11 @@ a:focus {
 }
 
 .c-card__footer {
+  padding-top: 16px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  border-top: 1.5px solid #A0A1AD;
 }
 
 /*
@@ -528,6 +535,7 @@ a:focus {
 }
 
 .c-form-field--option {
+  margin-left: 8px;
 }
 
 /*
@@ -605,6 +613,10 @@ a:focus {
   color: Silver;
 }
 
+.u-color-neutral-grey {
+  color: #757787;
+}
+
 .u-color-neutral-dark {
   color: Black;
 }
@@ -614,6 +626,8 @@ a:focus {
     ---
     Utility classes to put specific margins and paddings onto elements
 */
+
+
 
 .u-pt-clear {
   padding-top: 0 !important;
@@ -674,6 +688,7 @@ a:focus {
     ---
     Utility classes align text or components
 */
+
 
 .u-align-text-center {
   text-align: center;
